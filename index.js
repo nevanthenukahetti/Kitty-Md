@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94//====//']
+const ownerNumber = ['9477843791']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting QUEEN-KYLIE-MD BOT 🤖...");
+console.log("Connecting KITTY-MD BOT 🤖...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -140,15 +140,15 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94")){
+if(senderNumber.includes("9477843791")){
 if(isReact) return
 m.react("👨‍💻")
 }
-if(senderNumber.includes("94")){
+if(senderNumber.includes("94767910958")){
 if(isReact) return
-m.react("🕸️")
+m.react("🗿")
 }
-if(senderNumber.includes("94")){
+if(senderNumber.includes("94704031866")){
 if(isReact) return
 m.react("📍")
 }       

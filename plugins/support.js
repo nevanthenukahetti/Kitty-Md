@@ -26,13 +26,13 @@ try{
 
 let about = ` *👋 Hello ${pushname}*
 
-*🧚QUEEN-KYLIE-MD Support Channels🧚*
+*🧚KITTY MD Support Channels🧚*
 
 *Youtube Channel Link:* https://www.youtube.com/@Sahas_Tech
 
 *Whatsapp Channel Link:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+*©KITTY MD MADE BY NETHMINAッ*`
 
 return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/1jssgr.jpg`},caption:about},{quoted: mek})
 

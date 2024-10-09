@@ -69,28 +69,21 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `🚀 *_QUEEN-KYLIE-MD Connected Successfully!_* ✅ 
+let up = `🚀 *_KITTY-md Connected Successfully!_* ✅ 
 
---- *🧚‍♀️🎉 _Welcome to QUEEN-KYLIE-MD!_* 🎉🧚‍♀️ 
+--- *🧚‍♀️🎉 _Welcome to Kitty-MD!_* 🎉🧚‍♀️ 
 
 *🔹 PREFIX:* ${prefix}
 
 *🔹 OWNER:* ${ownerNumber}
 
 
-_Thank you for using_ *🧚‍♀️QUEEN-KYLIE-MD💗.*
+_Thank you for using_ *🧚‍♀️Kitty-MD💗.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🌝💗
+`;
 
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
-
-_*🧚‍♀️Enjoy your time with us!😊*_
-
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
-
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/9b44e3266c065df601430.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/dO10Vgt.jpeg` }, caption: up })
 
 }
 })
@@ -167,12 +160,12 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             
 //========OwnerReact========            
          
-if(senderNumber.includes("94718913389")){
+if(senderNumber.includes("94778433791")){
 if(isReact) return
 m.react("👨‍💻")
 }       
  
-if(senderNumber.includes("94765527900")){
+if(senderNumber.includes("94767910958")){
 if(isReact) return
 m.react("💗")
 }
@@ -180,15 +173,7 @@ m.react("💗")
 if (isCmd && config.AUTO_READ_CMD === "true") {
               await conn.readMessages([mek.key])  // Mark command as read
 }
-//Auto-StatusDL==============        
-//=====================✓
-if (config.AUTO_VOICE === 'true') {
-const url = 'https://raw.githubusercontent.com/DarkYasiyaofc/VOICE/main/Voice-Raw/FROZEN-V2'
-let { data } = await axios.get(url)
-for (vr in data){
-if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
- }}
-        
+      
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
 if (isCmd) {
@@ -223,7 +208,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey,QUEEN-KYLIE-MD bot started✅");
+res.send("hey,Kitty-bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {

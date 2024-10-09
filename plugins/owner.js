@@ -11,16 +11,16 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*🧚‍♀️𝐐𝐔𝐄𝐄𝐍 𝐊𝐘𝐋𝐈𝐄-𝐌𝐃🧚‍♀️*
+let dec = `*🧚‍♀️KITTY-MD🧚‍♀️*
 
 > *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
 
-*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ꜱᴀʜᴀꜱ ɴᴇᴛʜꜱᴀʀᴀ (ꜱᴀʜᴀꜱ ᴛᴇᴄʜ)*
-*⚡ɴᴜᴍʙᴇʀ* -: 94718913389
+*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: NETHMINA(NETHMINA ᴛᴇᴄʜ)*
+*⚡ɴᴜᴍʙᴇʀ* -: 94778433791
 *⚡ʏᴏᴜᴛᴜʙᴇ -:* https://www.youtube.com/@Sahas_Tech
 *⚡ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+*©KITTY MD MADE BY NETHMINAッ*
 `
 await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/snccuh.jpg`},caption:dec},{quoted:mek});
 

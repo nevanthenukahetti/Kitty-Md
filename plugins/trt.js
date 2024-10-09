@@ -28,7 +28,7 @@ async (conn, mek, m, { from, q, reply }) => {
 🔠 *Translated*: ${translation}
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
+*©KITTY MD MADE BY NETHMINAッ*`;
 
         return reply(translationMessage);
     } catch (e) {

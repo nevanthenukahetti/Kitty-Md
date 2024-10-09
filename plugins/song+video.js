@@ -16,7 +16,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*🎼 QUEEN-KYLIE-MD SONG DOWNLOADER . .⚙️*
+let desc = `*🎼 KITTY-MD SONG DOWNLOADER . .⚙️*
 
 🎼⚙️ TITLE - ${data.title}
 
@@ -28,7 +28,7 @@ let desc = `*🎼 QUEEN-KYLIE-MD SONG DOWNLOADER . .⚙️*
 
 🎼⚙️ AGO - ${data.ago}
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+*©KITTY MD MADE BY NETHMINAッ*
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
@@ -61,7 +61,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*📽️ QUEEN-KYLIE-MD VIDEO DOWNLOADER . .⚙️*
+let des = `*📽️ KITTY-MD VIDEO DOWNLOADER . .⚙️*
 
 📽️⚙️ TITLE - ${data.title}
 

@@ -15,7 +15,7 @@ let dec = `*🧚‍♀️KITTY-MD🧚‍♀️*
 
 > *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
 
-*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: NETHMINA(NETHMINA ᴛᴇᴄʜ)*
+*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: NETHMINA(NETHMINA TECH)*
 *⚡ɴᴜᴍʙᴇʀ* -: 94778433791
 *⚡ʏᴏᴜᴛᴜʙᴇ -:* https://www.youtube.com/@Sahas_Tech
 *⚡ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533

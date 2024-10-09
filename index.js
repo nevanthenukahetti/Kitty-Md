@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `Kitty-MD CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `img url` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/dO10Vgt.jpeg` }, caption: up })
 
 }
 })
